@@ -10,3 +10,9 @@ Let's start, to build an image with docker:
   cd docker-guide
   docker build -t="docknode" .
 ```
+
+Then to run that image and attach to it at the same time:
+
+```sh
+  docker run -i -t docknode
+```
