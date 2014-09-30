@@ -16,3 +16,9 @@ Then to run that image and attach to it at the same time:
 ```sh
   docker run -i -t docknode
 ```
+
+Or to run it in the background:
+
+```sh
+  docker run -d rethinkdb
+```
